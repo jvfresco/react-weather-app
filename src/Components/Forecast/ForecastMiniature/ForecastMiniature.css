@@ -1,0 +1,73 @@
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 15rem;
+  width: 20%;
+}
+
+.card:not(:last-child) {
+  margin-right: .5rem;
+}
+
+.card__side {
+  color: rgb(65, 88, 65);
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  height: 15rem;
+  transition: transform .8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card__side__back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side__front {
+  transform: rotateY(-180deg);
+}
+
+
+.card:hover .card__side__back {
+  transform: rotateY(0);
+}
+
+.Separator {
+  color: rgba(78, 226, 78, 0.2);
+  border-color: rgba(78, 226, 78, 0.2);;
+}
+
+.icon {
+  height: 6rem;
+}
+
+.date {
+  font-size: 1.25rem;
+}
+
+.temperature {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 400px){
+  .card:not(:last-child){
+    margin-right: 0;
+  }
+  .card {
+    width: 35%;
+    margin-bottom: 2rem;
+  }
+}

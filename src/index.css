@@ -1,0 +1,18 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /*activate inheritance for the whole website and set the value in the body */
+}
+
+html {
+  font-size: 62.5%; /*Font-size is used as the reference for the transform from rem to px. The percentage is applied to the default of 16px if user didn't touch it */
+  /* In our case 1rem == 10px */ 
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,25 @@
+.Modal {
+  padding: 2px;
+  position: fixed;
+  display: inline-block;
+  background-color: white;
+  min-width: 40%;
+  max-height: 70%;
+  z-index: 500;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid rgb(163, 163, 163);
+  box-shadow: 1px 1px 1px grey;
+  left:50%;
+  top:15%;
+  box-sizing: border-box;
+  transition: all .5s ease-out;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px){
+  .Modal {
+    overflow-x: auto;
+    width: 100%;
+  }
+}

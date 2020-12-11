@@ -1,0 +1,31 @@
+.Header1 {
+  color: green;
+  font-weight: normal;
+}
+
+.Header2 {
+  font-weight: normal;
+  color: red;
+}
+
+.Separator {
+  
+  border: 1px solid rgb(213, 236, 214);
+  border-bottom: 1px solid white;
+
+  
+  width: 100%;
+}
+
+.Buttons {
+  text-align: right;
+}
+
+.Form {
+  padding: 2rem;
+}
+
+.Inputs {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}

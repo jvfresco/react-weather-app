@@ -1,0 +1,90 @@
+.Container {
+  margin:auto;
+  margin-top: 6rem;
+  padding: 2.5rem;
+  width: 67rem;
+  background-color: rgb(71, 196, 82);
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ForecastPanel {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+}
+
+
+h1, .temp {
+  color: white;
+  font-size: 3rem;
+  margin: .5rem;
+}
+
+h3 {
+  color: rgb(65, 88, 65);
+  font-size: 2rem;
+  font-weight: normal;
+  margin: .5rem;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.icon {
+  height: 8rem;
+}
+
+ul {
+  margin:auto;
+  margin-bottom: 1rem;
+  padding:0;
+  display: block;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+ul:last-child {
+  border-bottom: none;
+}
+
+li {
+  color: rgb(65, 88, 65);
+  padding: 2rem;
+  border-bottom: 1px solid rgb(53, 201, 53);
+  font-size: 1.5rem;
+}
+
+
+hr {
+  color: rgb(78, 226, 78);
+  border-color: rgb(78, 226, 78);
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 700px){
+  .Container{
+    width: 90%
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .Container{
+    width: 100%;
+    padding:0px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .ForecastPanel{
+    flex-direction: column;
+    align-items: center;
+  }
+}

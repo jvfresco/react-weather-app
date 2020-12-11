@@ -1,0 +1,55 @@
+.Table {
+  display: inline-block;
+  width: 80rem;
+  margin: 2rem 2rem;
+  font-size: 1.2rem;
+  color: rgb(65, 88, 65);
+}
+
+.TableRow, .TableHeader {
+  display: table-row;
+}
+
+.TableHeader {
+  background-color: rgba(78, 226, 78, 0.2);
+}
+
+.TableCell, .TableFlex {
+  padding: 1rem 1rem;
+  border: 1px solid rgba(78, 226, 78, 0.2);
+}
+
+.TableCell {
+  display: table-cell;
+  white-space: nowrap;
+  width: 12.5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.TableFlex {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 5rem;
+}
+.arrow {
+  height: 4rem;
+}
+
+.temp {
+  white-space: nowrap;
+}
+
+.DayHeader {
+  color: rgb(65, 88, 65);
+  font-size: 3rem;
+  margin: 0rem 1rem;
+}
+
+.Separator {
+  margin: 1rem 0;
+}
+
