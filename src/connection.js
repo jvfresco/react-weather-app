@@ -1,6 +1,5 @@
+import AppID from './config.js'
 const units = 'metric';
-//APIKEY FROM OPENWEATHERMAP
-const AppID = 'd5392fb3deb5ca31e94aa6b4c780e2fd';
 
 export const  getWeather = async (city, country) => {
   //First the app fetches the info for the current day and the coordinates
