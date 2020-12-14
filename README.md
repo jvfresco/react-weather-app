@@ -13,4 +13,5 @@ It uses OpenWeather API to obtain the data.
 - React
 - Class based
 - Style managed with css modules
+- OpenWeather API
 
