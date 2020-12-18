@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-You can access a live version of the app [here](https://fispe.github.io/react-weather-app/).
+You can access a live version of the app [here](https://jvfresco.github.io/react-weather-app/).
 
 ## Weather App
 
